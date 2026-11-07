@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -31,10 +30,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:scheme="stew"
-                    android:host="oauth"
-                    android:path="/callback" />
+                <data android:scheme="stew" android:host="oauth" android:path="/callback" />
             </intent-filter>
 
         </activity>
